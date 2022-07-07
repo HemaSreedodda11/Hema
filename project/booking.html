@@ -16,20 +16,20 @@
          <form>
             <div id="name">
                 <h2 class="name">Name</h2>
-                <input class="Firstname" type="text" name="First_name" placeholder="firstname" required><br>
+                <input class="Firstname" id="Fname " type="text" name="First_name" placeholder="firstname" required><br>
                 <label class="Firstlabel">Firstname</label>
-                <input class="Lastname" type="text" name="Last_name" placeholder="lastname" required><br>
+                <input class="Lastname" id="Lname" type="text" name="Last_name" placeholder="lastname" required><br>
                 <label class="lastlabel">Lastname</label>
             </div>
                 
             <h2 class="name">Address</h2>
-            <input class="Address" type="text" name="Address" placeholder="address" required>
+            <input class="Address" id="Address" type="text" name="Address" placeholder="address" required>
 
             <h2 class="name">Email</h2>
-            <input class="email" type="email" name="Email" placeholder="email" required>
+            <input class="email" id="mail" type="email" name="Email" placeholder="email" required>
 
             <h2 class="name"> PhoneNumber</h2>
-            <input class="Phonenumber" type="tel" name="Phonenumber" maxlength="10" placeholder="9876553321" required>
+            <input class="Phonenumber" id="Phno" type="tel" name="Phonenumber" maxlength="10" placeholder="9876553321" required>
            
             <h2 class="name">Date of Birth</h2>
             <input class="date" type="date" id="DOB" name="name">
@@ -37,7 +37,7 @@
 
             <h2 class="name">Gender</h2>
             <label class="name">
-                <select class="gender" name="gender">
+                <select class="gender" id="option" name="gender">
                 <option disabled="disabled" selected="selected">Choose</option>
                 <option>Male</option>
                 <option>Female</option>
@@ -61,14 +61,14 @@
            <div class="name">
             <div class="field">
                 <span>Min</span>
-                <input type="number" class="input-min" value="0">
+                <input type="number" id="min" class="input-min" value="0">
             </div>
             <div class="separator">---</div>
             <div class="field1">
                 <span>Max</span>
-                <input type="number" class="input-max" value="0">
+                <input type="number" id="max" class="input-max" value="0">
             </div>  
-        <button type="submit" value="submit" onclick="msgprint()">Submit</button>
+        <button type="submit" id="submit" value="submit" onclick="msgprint()">Submit</button>
          </form>
      </div>
      
